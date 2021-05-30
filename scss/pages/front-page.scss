@@ -258,7 +258,7 @@
         top: 10px;
         position: absolute;
         content: "";
-        background: url("/img/Polygon.png");
+        background: url("../img/Polygon.png");
         width: 12px;
         height: 13px;
         transition: 0.5s;
@@ -337,7 +337,7 @@
       &::before {
         position: absolute;
         content: "";
-        background: url("/img/feedback.png");
+        background: url("../img/feedback.png");
         width: 34px;
         height: 28px;
         top: 42px;
