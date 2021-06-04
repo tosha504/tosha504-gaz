@@ -5,14 +5,6 @@ jQuery(document).ready(function($) {
   });
 
   $(".question__title").on("click", function(event) {
-    if ($(".question__items").hasClass("one")) {
-      $(".question__title")
-        .not($(this))
-        .removeClass("active");
-      $(".question__text")
-        .not($(this))
-        .slideUp(300);
-    }
     $(this)
       .toggleClass("active")
       .next()
